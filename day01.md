@@ -1,12 +1,12 @@
-Part 1
+# Part 1
 
-```
+```cpp
 =SUMPRODUCT(LET(r,REGEXREPLACE(A:A,"\D",),LEFT(r)&RIGHT(r)))
 ```
 
-Part 2
+# Part 2
 
-```
+```cpp
 =SUMPRODUCT(
   LET(n,{"one";"two";"three";
         "four";"five";"six";
