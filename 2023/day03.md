@@ -1,3 +1,5 @@
+_Input expected in A1_
+
 # Part 1
 ```cp
 =ARRAYFORMULA(
