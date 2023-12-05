@@ -1,5 +1,5 @@
 # Advent of Code
-Google Sheets one formula solutions to Advent of Code
+Google Sheets one formula solutions to Advent of Code.
 
 ## Usage
 
