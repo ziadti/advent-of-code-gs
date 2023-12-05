@@ -1,6 +1,6 @@
 # Part 1 & 2
 
-```
+```cpp
 =ARRAYFORMULA(
    BYCOL(
      MAP(A:A,LAMBDA(a,
