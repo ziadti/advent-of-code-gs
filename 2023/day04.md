@@ -1,3 +1,5 @@
+_Input expected in A:A_
+
 # Part 1 & 2
 
 ```cpp
