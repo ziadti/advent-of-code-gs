@@ -1,7 +1,7 @@
 _Input expected in A1_
 
 # Part 1
-```cp
+```py
 =ARRAYFORMULA(
    LET(a,A1,
        in,SUBSTITUTE(a,CHAR(10),),
