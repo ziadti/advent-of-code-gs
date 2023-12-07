@@ -1,5 +1,7 @@
 _Input expected in A1_
 
+_Note: This formula takes a few minutes to load_
+
 # Part 1
 ```py
 =ARRAYFORMULA(
