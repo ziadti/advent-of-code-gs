@@ -29,6 +29,6 @@ _Input expected in A:A_
                   cnt,JOIN(,SORT(INDEX(Q(LEFT(SUBSTITUTE(crd_,"J",IF(vl="J",IFNA(INDEX(FILTER(INDEX(grp,,2),INDEX(grp,,2)<>"J"),1),"A"),vl)),5)),,1))),
                   SWITCH(--cnt,11111,0,1112,1,122,2,113,3,23,4,14,5,6)))
               ),
-        ts,REDUCE(LEFT(in,5),ROW(1:5),LAMBDA(v,i,SUBSTITUTE(v,MID("TJQKA",i,1),MID("V0XYZ",i,1)))),
+        ts,REDUCE(in,ROW(1:5),LAMBDA(v,i,SUBSTITUTE(v,MID("TJQKA",i,1),MID("V0XYZ",i,1)))),
         SEQUENCE(ROWS(in))*REGEXEXTRACT(SORT(in,rk,1,ts,1),"\d+$")))
 ```
