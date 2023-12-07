@@ -2,13 +2,13 @@ _Input expected in A:A_
 
 # Part 1
 
-```cpp
+```py
 =SUMPRODUCT(LET(r,REGEXREPLACE(A:A,"\D",),LEFT(r)&RIGHT(r)))
 ```
 
 # Part 2
 
-```cpp
+```py
 =SUMPRODUCT(
   LET(n,{"one";"two";"three";
         "four";"five";"six";
