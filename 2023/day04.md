@@ -2,7 +2,7 @@ _Input expected in A:A_
 
 # Part 1 & 2
 
-```cpp
+```py
 =MAP({3,2},LAMBDA(i,
   SUM(INDEX(
     LET(crds,SEQUENCE(ROWS(A:A)),
