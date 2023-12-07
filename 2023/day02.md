@@ -2,7 +2,7 @@ _Input expected in A:A_
 
 # Part 1 & 2
 
-```cpp
+```py
 =ARRAYFORMULA(
    BYCOL(
      MAP(A:A,LAMBDA(a,
