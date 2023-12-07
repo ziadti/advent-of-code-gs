@@ -2,7 +2,7 @@ _Input expected in A:A_
 
 # Part 1
 
-```cpp
+```python
 =ARRAYFORMULA(
   LET(in,A:A,
       rs,SEQUENCE(ROWS(in)-1),
