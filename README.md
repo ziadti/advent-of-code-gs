@@ -9,7 +9,7 @@ To use the formulas on your input:
 - Double click on any empty cell not in column A and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) the formula(s).
 - Format column A as Plain text. _(Click on the column label > Format > Number > Plain text)_
 - Copy the puzzle input.
-    - If the formula expects the input in `A:A` click once on cell `A1` and paste the input as _values only_ (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>). <br> _(Note: If there are empty rows at the bottom delete them by clicking on the row number of the first empty row > <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Down</kbd> > Right click > Delete rows)_.
+    - If the formula expects the input in `A:A` click once on cell `A1` and paste the input as _values only_ (<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>). <br> _(Note: If there are empty rows at the bottom delete them by clicking on the row number of the first empty row > <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Down</kbd> > Right click > Delete rows)_
     - If the formula expects the input in cell `A1` double click on cell `A1` and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) the input.
 
 ## 2023 Progress
