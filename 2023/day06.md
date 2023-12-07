@@ -1,10 +1,9 @@
-_Input expected in A1:A2_
+_Input expected in A:A_
 
 # Part 1 & 2
 
-```cpp
-=INDEX(
-  LET(in,A1:A2,
+```python
+  LET(in,A:A,
       splt,{SPLIT(in,"TtimeDsnca: "),REGEXREPLACE(in,"\D",)},
       time,INDEX(splt,1),
       dist,INDEX(splt,2),
