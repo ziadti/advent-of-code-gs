@@ -14,6 +14,6 @@ To use the formulas on your input:
 
 ## 2023 Progress
 
-| Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Day 6 | Day 7 |
-|-------|-------|-------|-------|-------|-------|-------|
-| ⭐⭐    | ⭐⭐    | ⭐     | ⭐⭐    | ⭐     | ⭐⭐    | ⭐⭐    |
+| [Day 1](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day01.md) | [Day 2](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day02.md) | [Day 3](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day03.md) | [Day 4](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day04.md) | [Day 5](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day05.md) | [Day 6](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day06.md) | [Day 7](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day07.md) | [Day 8](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day08.md) |
+|-------|-------|-------|-------|-------|-------|-------|-|
+| ⭐⭐    | ⭐⭐    | ⭐     | ⭐⭐    | ⭐     | ⭐⭐    | ⭐⭐    |⭐|
