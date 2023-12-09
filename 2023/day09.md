@@ -17,5 +17,5 @@ _Input expected in A:A_
             LET(s,SPLIT(s_," "),
                {Y(Y,s,1), 
                 Y(Y,CHOOSECOLS(s,SEQUENCE(COUNT(s),1,-1,-1)),1)}))),
-        LAMBDA(c,SUM(c))))
+       LAMBDA(c,SUM(c))))
 ```
