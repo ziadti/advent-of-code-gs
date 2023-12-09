@@ -10,7 +10,7 @@ _Input expected in A:A_
                   IF(OR(l)-1,
                      a,
                      Y(Y,{a;IFNA(CHOOSECOLS(l,SEQUENCE(1,COLUMNS(l)-i,2))-l)},i+1))),
-              LAMBDA(r,INDEX(r,COUNT(r)))))),
+              LAMBDA(r,INDEX(r,,COUNT(r)))))),
      BYCOL(
        MAP(A:A,
          LAMBDA(s_,
