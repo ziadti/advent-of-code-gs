@@ -1,7 +1,5 @@
 _Input expected in A1_
 
-_Note: The formula for Part 1 takes a few minutes to load_
-
 # Part 1
 ```py
 =SUMPRODUCT(
