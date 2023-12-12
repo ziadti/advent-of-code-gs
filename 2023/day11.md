@@ -2,6 +2,8 @@ _Input expected in A:A_
 
 _Note: This formula is extremely slow_
 
+_https://adventofcode.com/2023/day/11_
+
 # Part 1 & 2
 
 ```py
