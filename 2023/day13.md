@@ -1,5 +1,7 @@
 _Input expected in A1_
 
+_https://adventofcode.com/2023/day/13_
+
 # Part 1 & 2
 
 ```py
