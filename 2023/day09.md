@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 9: Mirage Maintenance](https://adventofcode.com/2023/day/9)**
 
-_https://adventofcode.com/2023/day/9_
+_(Input expected in A:A)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 =LET(Y,LAMBDA(Y,a,i,
