@@ -1,10 +1,10 @@
-_Input expected in A:A_
+**[Day 11: Cosmic Expansion](https://adventofcode.com/2023/day/11)**
+
+_(Input expected in A:A)_
 
 _Note: This formula is extremely slow_
 
-_https://adventofcode.com/2023/day/11_
-
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 =MAP({2,1e6},
