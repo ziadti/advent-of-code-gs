@@ -24,7 +24,8 @@ _(Input expected in A1)_
          LAMBDA(u,FILTER(n,EXACT(u,LEFT(lt)))))))
 ```
 
-# Part 2
+**Part 2**
+
 ```py
 =SUMPRODUCT(
    LET(in,A1,
