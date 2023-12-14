@@ -1,6 +1,6 @@
-_Input expected in A1_
+**[Day 3: Gear Ratios](https://adventofcode.com/2023/day/3)**
 
-_https://adventofcode.com/2023/day/3_
+_(Input expected in A1)_
 
 # Part 1
 ```py
