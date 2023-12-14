@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 2: Cube Conundrum](https://adventofcode.com/2023/day/2)**
 
-_https://adventofcode.com/2023/day/2_
+_(Input expected in A:A)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 =ARRAYFORMULA(
