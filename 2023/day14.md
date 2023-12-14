@@ -1,10 +1,10 @@
-_https://adventofcode.com/2023/day/14_ 
+**[Day 14: Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)**
 
-_Input expected in A:A_
+_(Input expected in A:A)_
 
-# Part 1
+**Part 1**
 
-## Splitting - Sorting - Merging
+**First approach: Splitting - Sorting - Merging**
 
 ```py
 =ARRAYFORMULA(
@@ -24,7 +24,7 @@ _Input expected in A:A_
       SUM(SEQUENCE(ROWS(sp),1,ROWS(sp),-1)*(TILT(sp)="O"))))
 ```
 
-## Replacing ".O" with "O."
+**Alternative approach: Replacing ".O" with "O."**
 
 ```py
 =LET(in,A:A,
