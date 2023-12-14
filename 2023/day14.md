@@ -1,12 +1,14 @@
-_Input expected in A:A_
+_https://adventofcode.com/2023/day/14_ 
 
-_https://adventofcode.com/2023/day/14_
+_Input expected in A:A_
 
 # Part 1
 
+## Splitting - Sorting - Merging
+
 ```py
 =ARRAYFORMULA(
-  LET(a,A:A,
+  LET(in,A:A,
       G,LAMBDA(arr,se,LET(s,INDEX(se,,1),e,INDEX(se,,2),CHOOSEROWS(arr,SEQUENCE(e-s+1,1,s)))),
       TILT,LAMBDA(arr,
              BYCOL(SWITCH(arr,"#","Z",".","Y",arr),
@@ -18,6 +20,23 @@ _https://adventofcode.com/2023/day/14_
                             QUERY(1+idxs&","&QUERY(idxs,"offset 1",),"limit "&ROWS(idxs)-1);
                             INDEX(idxs,ROWS(idxs))+1&","&ROWS(col)},
                         REDUCE(TOCOL(,1),rgs,LAMBDA(a,i,VSTACK(a,TOCOL(SORT(G(col,SPLIT(i,","))),2))))))))),
-      sp,REGEXEXTRACT(a,REPT("(.)",LEN(a))),
-      SUM(SEQUENCE(ROWS(sp),1,ROWS(sp),-1)*(TILT(sp)="O"))
+      sp,REGEXEXTRACT(in,REPT("(.)",LEN(in))),
+      SUM(SEQUENCE(ROWS(sp),1,ROWS(sp),-1)*(TILT(sp)="O"))))
+```
+
+## Replacing ".O" with "O."
+
+```py
+=LET(in,A:A,
+     rw,ROWS(in),
+     SUMPRODUCT(
+       SEQUENCE(rw,1,rw,-1)*
+       (TRANSPOSE(
+          REGEXEXTRACT(
+            TOCOL(
+              BYCOL(
+                REGEXEXTRACT(in,REPT("(.)",rw)),
+                  LAMBDA(col,REDUCE(JOIN(,col),SEQUENCE(rw),
+                               LAMBDA(a,_,SUBSTITUTE(a,".O","O.")))))),
+            REPT("(.)",rw)))="O")))
 ```
