@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 7: Camel Cards](https://adventofcode.com/2023/day/7)**
 
-_https://adventofcode.com/2023/day/7_
+_(Input expected in A:A)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```python
 =ARRAYFORMULA(
