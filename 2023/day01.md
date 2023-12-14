@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 1: Trebuchet?!](https://adventofcode.com/2023/day/1)**
 
-_https://adventofcode.com/2023/day/1_
+_(Input expected in A:A)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 ={SUMPRODUCT(LET(r,REGEXREPLACE(A:A,"\D",),LEFT(r)&RIGHT(r))),
