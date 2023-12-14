@@ -19,7 +19,5 @@ _https://adventofcode.com/2023/day/14_
                             INDEX(idxs,ROWS(idxs))+1&","&ROWS(col)},
                         REDUCE(TOCOL(,1),rgs,LAMBDA(a,i,VSTACK(a,TOCOL(SORT(G(col,SPLIT(i,","))),2))))))))),
       sp,REGEXEXTRACT(a,REPT("(.)",LEN(a))),
-      SUMPRODUCT(
-        BYROW(TILT(sp),LAMBDA(row,COUNTIF(row,"O"))),
-        SEQUENCE(ROWS(sp),1,ROWS(sp),-1))))
+      SUM(SEQUENCE(ROWS(sp),1,ROWS(sp),-1)*(TILT(sp)="O"))
 ```
