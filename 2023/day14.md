@@ -22,7 +22,7 @@ _https://adventofcode.com/2023/day/14_
                              REDUCE(TOCOL(,1),rgs,
                                LAMBDA(a,i,VSTACK(a,TOCOL(SORT(G(col,SPLIT(i,","))),2)))))))),
                   LAMBDA(row,COUNTIF(row,"O"))),
-                ROWS(arr)-SEQUENCE(ROWS(arr))+1)),
+                SEQUENCE(ROWS(arr),1,ROWS(arr),-1))),
        sp,REGEXEXTRACT(a,REPT("(.)",LEN(a))),
        sps,SWITCH(sp,"#","Z",".","Y",sp),
        TILT(sps)))
