@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 8: Haunted Wasteland](https://adventofcode.com/2023/day/8)**
 
-_https://adventofcode.com/2023/day/8_
+_(Input expected in A:A)_
 
-# Part 1
+**Part 1**
 
 ```py
 =REDUCE("AAA",SEQUENCE(25000),
