@@ -1,8 +1,8 @@
-_Input expected in A:A_
+**[Day 4: Scratchcards](https://adventofcode.com/2023/day/4)**
 
-_https://adventofcode.com/2023/day/4_
+_(Input expected in A:A)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 =MAP({3,2},LAMBDA(i,
