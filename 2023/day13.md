@@ -1,8 +1,8 @@
-_Input expected in A1_
+**[Day 13: Point of Incidence](https://adventofcode.com/2023/day/13)**
 
-_https://adventofcode.com/2023/day/13_
+_(Input expected in A1)_
 
-# Part 1 & 2
+**Part 1 & 2**
 
 ```py
 =MAP({0,1},
