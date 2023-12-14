@@ -2,7 +2,7 @@
 
 _(Input expected in A1)_
 
-# Part 1
+**Part 1**
 ```py
 =SUMPRODUCT(
    LET(in,A1,
