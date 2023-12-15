@@ -1,6 +1,6 @@
 **[Day 15: Lens Library](https://adventofcode.com/2023/day/15)**
 
-_Input expected in A1_
+_(Input expected in A1)_
 
 **Part 1 & 2**
 
