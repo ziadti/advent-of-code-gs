@@ -2,6 +2,8 @@
 
 _(Input expected in A:A)_
 
+_Note: This formula is extremely slow_
+
 **Part 1**
 
 ```py
