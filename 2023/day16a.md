@@ -35,3 +35,9 @@ _Note: This formula is extremely slow_
        ans,COUNTUNIQUE(visited)-1,
        ans))
 ```
+
+<hr>
+
+**Interactive visualization ([Make a copy](https://docs.google.com/spreadsheets/d/1K_7DQ7b_dtYSsnGpCcr9c8ph5nwwDXfSoPpEWslQHL4/copy))**
+
+![Day 16 interactive visualization](day16vis.gif)
