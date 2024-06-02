@@ -6,7 +6,7 @@ _(Input expected in A:A)_
 
 ```py
 =ARRAYFORMULA(
-   LET(sp,SPLIT(A:A," "),
+   LET(sp,SPLIT(TOCOL(A:A,1)," "),
        F,LAMBDA(s,
            INDEX(
              REDUCE({0,1},SEQUENCE(ROWS(s)),
