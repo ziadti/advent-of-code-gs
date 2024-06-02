@@ -6,7 +6,7 @@ _(Input expected in A:A)_
 
 ```python
 =ARRAYFORMULA(
-  LET(in,A:A,
+  LET(in,TOCOL(A:A,1),
       rs,SEQUENCE(ROWS(in)-1),
       sd,SPLIT(INDEX(in,1),"seeds: "),
       mp,CHOOSEROWS(in,SEQUENCE(ROWS(in)-1,1,2)),
