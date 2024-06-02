@@ -12,7 +12,7 @@ _(Input expected in A:A)_
        IFNA(
          VLOOKUP(
            a,
-           ARRAYFORMULA(SPLIT(A2:A,"=(), ")),
+           ARRAYFORMULA(SPLIT(TOCOL(A2:A,1),"=(), ")),
            IF(MID(A1,MOD(i-1,LEN(A1))+1,1)="L",2,3),),
          MIN(a,i-1)))))
 ```
