@@ -7,7 +7,7 @@ _(Input expected in A:A)_
 ```py
 =MAP({3,2},LAMBDA(i,
   SUM(INDEX(
-    LET(crds,SEQUENCE(ROWS(A:A)),
+    LET(crds,SEQUENCE(COUNTA(A:A)),
         REDUCE({crds,crds^0,crds^0-1},
                crds,
                LAMBDA(a,i,
