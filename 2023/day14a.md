@@ -8,7 +8,7 @@ _(Input expected in A:A)_
 
 ```py
 =ARRAYFORMULA(
-  LET(in,A:A,
+  LET(in,TOCOL(A:A,1),
       G,LAMBDA(arr,se,LET(s,INDEX(se,,1),e,INDEX(se,,2),CHOOSEROWS(arr,SEQUENCE(e-s+1,1,s)))),
       TILT,LAMBDA(arr,
              BYCOL(SWITCH(arr,"#","Z",".","Y",arr),
