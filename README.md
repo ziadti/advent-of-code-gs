@@ -15,11 +15,11 @@ To use the formulas on your input:
 ## 2023 (☆28)
 
 
-| **01~05** | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day01.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day02.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day03.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day04.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day05a.md) |
+| **01~05** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day01.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day02.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day03.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day04.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day05a.md) |
 | :- | :- | :- | :- | :- | :- |
-| **06~10** | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day06.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day07.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day08a.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day09.md) |  |
-| **11~15** | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day11.md) | | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day13.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day14a.md) | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day15.md) |
-| **16~20** | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day16a.md) | | [**☆ ★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day18.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day19a.md) |  |
+| **06~10** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day06.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day07.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day08a.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day09.md) |  |
+| **11~15** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day11.md) | | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day13.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day14a.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day15.md) |
+| **16~20** | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day16a.md) | | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day18.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day19a.md) |  |
 | **21~25** | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day21a.md) | | | | |
 
 
