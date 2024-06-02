@@ -9,7 +9,7 @@ _Note: This formula is extremely slow_
 ```py
 =MAP({2,1e6},
    LAMBDA(v,SUMPRODUCT(
-     LET(in,A:A,
+     LET(in,TOCOL(A:A,1),
          sz,ROWS(in),
          sqv,SEQUENCE(sz),
          sqh,TOROW(sqv),
