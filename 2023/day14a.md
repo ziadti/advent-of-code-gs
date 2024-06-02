@@ -27,7 +27,7 @@ _(Input expected in A:A)_
 **Alternative approach: Replacing ".O" with "O."**
 
 ```py
-=LET(in,A:A,
+=LET(in,TOCOL(A:A,1),
      rw,ROWS(in),
      SUMPRODUCT(
        SEQUENCE(rw,1,rw,-1)*
