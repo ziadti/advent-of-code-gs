@@ -6,7 +6,7 @@ _(Input expected in A:A)_
 
 ```python
 =ARRAYFORMULA(
-   LET(in,A:A,
+   LET(in,TOCOL(A:A,1),
        Q,LAMBDA(x,QUERY(QUERY(x,"select count(Col1),Col1 group by Col1"),"offset 1",)),
        S,LAMBDA(x,REDUCE(in,ROW(1:5),LAMBDA(v,i,SUBSTITUTE(v,MID("TQKAJ",i,1),MID("VXYZ"&x,i,1))))),
        W,LAMBDA(x,SWITCH(--x,11111,0,1112,1,122,2,113,3,23,4,14,5,6)),
