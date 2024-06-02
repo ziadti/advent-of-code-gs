@@ -5,7 +5,7 @@ _(Input expected in A:A)_
 **Part 1 & 2**
 
 ```python
-  LET(in,A:A,
+  LET(in,TOCOL(A:A,1),
       splt,{SPLIT(in,"TtimeDsnca: "),REGEXREPLACE(in,"\D",)},
       time,INDEX(splt,1),
       dist,INDEX(splt,2),
