@@ -6,7 +6,7 @@ _(Input expected in A:A)_
 
 ```py
 =SUMPRODUCT(
-   LET(in,A:A,
+   LET(in,TOCOL(A:A,1),
        sp,SPLIT(FILTER(in,LEFT(in)<>"{"),",{}"),
        workflow,INDEX(sp,,1),
        conditions,CHOOSECOLS(sp,SEQUENCE(COLUMNS(sp)-1,1,2)),
