@@ -8,7 +8,7 @@ _Note: This formula is extremely slow_
 
 ```py
 =ARRAYFORMULA(
-  LET(in,A:A,
+  LET(in,TOCOL(A:A,1),
       dim,131,
       grid_,REGEXEXTRACT(in,REPT("(.)",dim)),
       grid,SPLIT(TOCOL(IF(grid_="#",,grid_&","&COMPLEX(SEQUENCE(dim),SEQUENCE(1,dim))),1),","),
