@@ -5,7 +5,7 @@ _(Input expected in A:A)_
 **Part 1 & 2**
 
 ```py
-={SUMPRODUCT(LET(r,REGEXREPLACE(A:A,"\D",),LEFT(r)&RIGHT(r))),
+={SUMPRODUCT(LET(r,REGEXREPLACE(TOCOL(A:A,1),"\D",),LEFT(r)&RIGHT(r))),
   SUMPRODUCT(
     LET(n,{"one";"two";"three";
           "four";"five";"six";
