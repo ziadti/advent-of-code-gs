@@ -9,7 +9,7 @@ _Note: This formula is extremely slow_
 ```py
 =ARRAYFORMULA(
   LET(size,110,
-      grid,REGEXEXTRACT(A:A,REPT("(.)",size)),
+      grid,REGEXEXTRACT(TOCOL(A:A,1),REPT("(.)",size)),
       coord,COMPLEX(SEQUENCE(size),SEQUENCE(1,size)),
       path,REDUCE(
             {"1,i",FALSE},
