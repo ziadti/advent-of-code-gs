@@ -7,7 +7,7 @@ _(Input expected in A:A)_
 ```py
 =ARRAYFORMULA(
    BYCOL(
-     MAP(A:A,LAMBDA(a,
+     MAP(TOCOL(A:A,1),LAMBDA(a,
        LET(s,SPLIT(REGEXREPLACE(a,"(\d+) "&{"r";"g";"b"}&"|.","$1 ")," "),
           {ROW(a)*AND(s<={12;13;14}),
            PRODUCT(BYROW(s,LAMBDA(r,MAX(r))))}))),
