@@ -12,8 +12,17 @@ To use the formulas on your input:
     - If the formula expects the input in `A:A` click once on cell `A1` and paste the input as _values only_ (<kbd>Ctrl</kbd>+<kbd>⇧</kbd>+<kbd>V</kbd>).
     - If the formula expects the input in cell `A1` double click on cell `A1` and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) the input.
 
-## 2023 (☆28)
+## 2024 (☆2)
 
+| **01~05** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2024/day01.md)  |  |  |  |  |
+| :- | :- | :- | :- | :- | :- |
+| **06~10** |  |  |  |  |  |
+| **11~15** |  |  |  |  |  |
+| **16~20** |  |  |  |  |  |
+| **21~25** |  |  |  |  |  |
+
+
+## 2023 (☆28)
 
 | **01~05** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day01.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day02.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day03.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day04.md) | [**☆**](https://github.com/z-iad/advent-of-code-gs/blob/main/2023/day05a.md) |
 | :- | :- | :- | :- | :- | :- |
