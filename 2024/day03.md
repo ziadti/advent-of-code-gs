@@ -1,6 +1,6 @@
 **[Day 3: Mull It Over](https://adventofcode.com/2024/day/3)**
 
-_(Input expected in A:A)_
+_(Input expected in A1)_
 
 **Part 1 & 2**
 
