@@ -14,7 +14,7 @@ To use the formulas on your input:
 
 ## 2024 (☆2)
 
-| **01~05** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2024/day01.md)  |  |  |  |  |
+| **01~05** | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2024/day01.md)  | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2024/day02.md) | [**☆★**](https://github.com/z-iad/advent-of-code-gs/blob/main/2024/day03.md) |  |  |
 | :- | :- | :- | :- | :- | :- |
 | **06~10** |  |  |  |  |  |
 | **11~15** |  |  |  |  |  |
