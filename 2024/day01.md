@@ -1,6 +1,6 @@
 **[Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1)**
 
-_(Input expected in A1)_
+_(Input expected in A:A)_
 
 **Part 1 & 2**
 
