@@ -6,14 +6,14 @@ _(Input expected in A1)_
 
 ```py
 =MAP(
-  {A1; REGEXREPLACE(A1, "(?s)don't\\(\\).*?(do\\(\\)|$)", "")},
+  {A1; REGEXREPLACE(A1, "(?s)don't\(\).*?(do\(\)|$)", "")},
   LAMBDA(
     _,
     SUMPRODUCT(
       MAP(
         TOCOL(
           SPLIT(
-            REGEXREPLACE(_, "mul\\((\\d+),(\\d+)\\)|.", "$1*$2 "),
+            REGEXREPLACE(_, "mul\((\d+),(\d+)\)|.", "$1*$2 "),
             " "
           )
         ),
