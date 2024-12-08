@@ -18,8 +18,8 @@ _(Input expected in A:A)_
                         t * (
                             0 < COUNTIF(
                                 REDUCE(
-                                    INDEX(s, 2),
-                                    CHOOSECOLS(s, SEQUENCE(COUNTA(s)-2, 1, 3)),
+                                    ,
+                                    CHOOSECOLS(s, SEQUENCE(COUNTA(s)-1, 1, 2)),
                                     LAMBDA(a, v, {a+v; a*v; _*(a&v)})
                                 ),
                                 t
