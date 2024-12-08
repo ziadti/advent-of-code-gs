@@ -6,21 +6,26 @@ _(Input expected in A:A)_
 
 ```py
 =MAP(
-    {0; 1},
-    LAMBDA(_,  
+    {0;1},
+    LAMBDA(_, 
         SUMPRODUCT(
             MAP(
                 TOCOL(A:A, 1),
-                LAMBDA(a, LET(  
-                    s, SPLIT(a, ": "), 
-                    t, SINGLE(s),  
-                    t * (0 < COUNTIF(  
-                        REDUCE(
-                            INDEX(s, 2),
-                            CHOOSECOLS(s, SEQUENCE(COUNTA(s) - 2, 1, 3))),
-                            LAMBDA(a, v, {a + v; a * v; _ * (a & v)})),
-                        t
-                    )))
+                LAMBDA(a,
+                    LET(
+                        s, SPLIT(a, ": "),
+                        t, SINGLE(s),
+                        t * (
+                            0 < COUNTIF(
+                                REDUCE(
+                                    INDEX(s, 2),
+                                    CHOOSECOLS(s, SEQUENCE(COUNTA(s)-2, 1, 3)),
+                                    LAMBDA(a, v, {a+v; a*v; _*(a&v)})
+                                ),
+                                t
+                            )
+                        )
+                    )
                 )
             )
         )
