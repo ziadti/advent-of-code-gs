@@ -2,7 +2,7 @@
 
 _(Input expected in A:A)_
 
-**Part 1 & 2**
+**Part 1**
 
 ```py
 =ARRAYFORMULA(
