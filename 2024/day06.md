@@ -15,22 +15,23 @@ _(Input expected in A:A)_
             REDUCE(
                 {-1; TOCOL(IF(a = "^", g, ), 1)},
                 SEQUENCE(6000),
-                LAMBDA(x, _, LET(
-                    d, SINGLE(x),
-                    r, ROWS(x),
-                    c, INDEX(x, r),
-                    nd, IMPRODUCT(d, "-i"),
-                    o, COUNTIF(IF(g = IMSUM(c, d), a), "#"),
-                    y, IF(o, nd, d),
-                    s, IMSUM(c, y),
-                    IF(
-                        COUNTIF(g, s),
-                        {IF(SEQUENCE(r) = 1, y, x); s},
-                        x
+                LAMBDA(x, _, 
+                    LET(
+                        d, SINGLE(x),
+                        r, ROWS(x),
+                        c, INDEX(x, r),
+                        nd, IMPRODUCT(d, "-i"),
+                        o, COUNTIF(IF(g = IMSUM(c, d), a), "#"),
+                        y, IF(o, nd, d),
+                        s, IMSUM(c, y),
+                        IF(COUNTIF(g, s),
+                            {IF(SEQUENCE(r) = 1, y, x); s},
+                            x
+                        )
                     )
-                ))
-            ) - 1
+                )
+            )
         )
-    )
+    ) - 1
 )
 ```
