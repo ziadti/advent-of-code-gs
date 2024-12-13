@@ -22,10 +22,7 @@ _(Input expected in A1)_
                     LAMBDA(ax, ay, bx, by, x, y, 
                         LET(
                             m, MMULT(MINVERSE({ax, bx; ay, by}), {x; y}),
-                            IF(
-                                AND(ABS(m - ROUND(m)) < 0.001), 
-                                SUM(m * {3; 1})
-                            )
+                            AND(ABS(m - ROUND(m)) < 0.001) * SUM(m * {3; 1})
                         )
                     )
                 )
