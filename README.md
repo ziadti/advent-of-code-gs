@@ -17,7 +17,7 @@ To use the formulas on your input:
 | **01~05** | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day01.md)  | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day02.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day03.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day04.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day05.md) |
 | :- | :- | :- | :- | :- | :- |
 | **06~10** | [**☆**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day06.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day07.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day08.md) |  |  |
-| **11~15** | [**☆**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day11.md) |  | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day13.md) |  |  |
+| **11~15** | [**☆**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day11.md) |  | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day13.md) | [**☆★**](https://github.com/ziadti/advent-of-code-gs/blob/main/2024/day14.md) |  |
 | **16~20** |  |  |  |  |  |
 | **21~25** |  |  |  |  |  |
 
