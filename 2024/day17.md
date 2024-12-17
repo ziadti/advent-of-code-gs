@@ -1,4 +1,4 @@
-**[Day 17: Chronospatial Computer(https://adventofcode.com/2024/day/17)**
+**[Day 17: Chronospatial Computer](https://adventofcode.com/2024/day/17)**
 
 _(Input expected in A1)_
 
