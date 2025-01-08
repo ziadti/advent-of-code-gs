@@ -46,3 +46,9 @@ _* Excel formula_
     )
 )
 ```
+
+**Part 1 using REGEX in Google Sheets**
+
+```py
+=SUMPRODUCT(REGEXMATCH(A2:A,"^("&SUBSTITUTE(A1,", ","|")&")+$"))
+```
